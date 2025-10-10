@@ -1,0 +1,47 @@
+:root {
+    --bg-clr: #e4e4e4;
+    --alternative-bg-clr: rgb(54, 54, 54);
+    --main-font: 'Arial';
+    --alternative-font: 'Monospace';
+}
+
+/* Articles styling */
+article,
+aside {
+    padding: .5em;
+    background-color: #fff;
+}
+
+article > p:first-of-type {
+    margin: 20px 0px 10px 0px;
+}
+
+article > *:not(img) {
+    padding-inline: 1.5em;
+}
+
+article > h3 {
+    text-align: center;
+    font-size: x-large;
+}
+
+/* Content of the article */
+article > p:last-of-type::before,
+article > p:last-of-type::after {
+    content: '"';
+}
+
+article > a {
+    background-color: var(--bg-clr);
+    color: #000;
+    border-radius: 5px;
+    padding-inline: 1em;
+    font-size: 1.25em;
+}
+
+
+article > img {
+    text-align: center;
+    max-width: 100%;
+    max-height: 200px;
+}

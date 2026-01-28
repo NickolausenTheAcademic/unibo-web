@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio HTML</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <h1>Acquisto libri di testo</h1>
+    <form method="get">
+        <fieldset>
+            <legend>Selezione dei titoli</legend>
+            <label for="selezioneTitolo">Seleziona un titolo:</label>
+            <select id="selezioneTitolo">
+                <option value="titolo-01">Sistemi operativi. Concetti ed esempi, di Abraham Silberschatz et al.</option>
+                <option value="titolo-02">Linguaggi di programmazione. Principi e paradigmi, di Maurizio Gabbrielli e Simone Martini</option>
+                <option value="titolo-03">I moderni sistemi operativi, di Andrew Tanenbaum</option>
+                <option value="titolo-04">Fondamenti di reti di calcolatori, di Andrew Tanenbaum</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Formato</legend>
+            <label for="selezioneCopertina">Seleziona una copertina:</label>
+            <select id="selezioneCopertina">
+                <option value="copertina-01">Copertina flessibile</option>
+                <option value="copertina-02">Copertina rigida</option>
+                <option value="copertina-03">Formato elettronico</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Dati per la consegna</legend>
+            <label for="inputNome">Inserisci un nome:</label>
+            <input type="text" name="inputNome" id="inputNome" placeholder="es. Mario">
+            <label for="inputCognome">Inserisci un cognome:</label>
+            <input type="text" name="inputCognome" id="inputCognome" placeholder="es. Rossi">
+            <label for="inputVia">Inserisci una via:</label>
+            <input type="text" name="inputVia" id="inputVia" placeholder="es. Via Archimede">
+            <label for="inputCivico">Inserisci una civico:</label>
+            <!-- Non è necessariamente numerico, ma anche alfanumerico (es. 189/G) -->
+            <input type="text" name="inputCivico" id="inputCivico" placeholder="es. 189/G">
+            <label for="inputCitta">Inserisci una città:</label>
+            <input type="text" name="inputCitta" id="inputCitta" placeholder="es. Cernusco sul Naviglio">
+            <label for="inputProvincia">Inserisci una provincia:</label>
+            <input type="text" name="inputProvincia" id="inputProvincia" placeholder="es. Milano">
+            <label for="inputCap">Inserisci un CAP:</label>
+            <input type="number" name="inputCap" id="inputCap" placeholder="es. 47042" min="10000" max="99999">
+            <label for="inputOrario">Orario flessibile?</label>
+            <input type="radio" name="inputOrario" id="inputOrario">
+        </fieldset>
+        <fieldset>
+            <legend>Dati sul pagamento</legend>
+            <label for="inputPagamento">Pagamento alla consegna</label>
+            <input type="checkbox" name="inputPagamento" id="inputPagamento">
+        </fieldset>
+        <button type="submit">Invia</button>
+        <button type="reset">Annulla</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+legend {
+    background-color: Orange;
+    color: darkred;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px -5px 10px gray;
+}
+
+form {
+    background-color: yellow;
+    border: 2px solid orange;
+    /* matricola: 0001113915 */
+    border-radius: 5px;
+    box-shadow: 5px -5px 5px gray;
+}
+
+label {
+    color: black;
+    font-size: 120%;
+}
+
+button {
+    background-color: orange;
+    color: black;
+    font-size: 150%;
+    border-radius: 5px;
+}
+
+fieldset {
+    border-color: darkred;
+}

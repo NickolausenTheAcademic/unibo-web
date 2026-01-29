@@ -1,0 +1,48 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+header {
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+
+section {
+    width: 100%;
+    /* to fix */
+    padding: 5px 10px 5px 5px;
+}
+
+input[type="text"],
+select,
+input[type="number"],
+input[type="color"],
+input[type="email"] {
+    display: block;
+    width: 100%;
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 7px 5px;
+    margin: 7px 10px 7px 0px;
+}
+
+input[value="Cancella"],
+input[value="Invia"] {
+    width: 48%;
+    cursor: pointer;
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+    padding: 10px 5px;
+    margin: 5px 10px; 
+}
+
+input[value="Cancella"]:hover,
+input[value="Invia"]:hover {
+    background-color: pink;
+    font-weight: bold;
+    color: purple;
+}

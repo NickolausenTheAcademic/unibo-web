@@ -1,0 +1,37 @@
+[
+    {
+        "matricola": "S001",
+        "nome": "Luca",
+        "cognome": "Rossi",
+        "corso": "Informatica",
+        "media": 27.5
+    },
+    {
+        "matricola": "S002",
+        "nome": "Maria",
+        "cognome": "Bianchi",
+        "corso": "Ingegneria",
+        "media": 28.2
+    },
+    {
+        "matricola": "S003",
+        "nome": "Giovanni",
+        "cognome": "Verdi",
+        "corso": "Informatica",
+        "media": 25.8
+    },
+    {
+        "matricola": "S004",
+        "nome": "Sara",
+        "cognome": "Neri",
+        "corso": "Matematica",
+        "media": 29.1
+    },
+    {
+        "matricola": "S005",
+        "nome": "Elena",
+        "cognome": "Fontana",
+        "corso": "Ingegneria",
+        "media": 26.4
+    }
+]

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio HTML</title>
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+            <legend>Anagrafica</legend>
+            <label for="inputNome">Nome:</label>
+            <input type="text" name="inputNome" id="inputNome" placeholder="es. Mario">
+            <label for="inputCognome">Cognome:</label>
+            <input type="text" name="inputCognome" id="inputCognome" placeholder="es. Rossi">
+            <label for="inputDataNascita">Data nascita:</label>
+            <input type="date" name="inputDataNascita" id="inputDataNascita">
+        </fieldset>
+        <fieldset>
+            <legend>Prenotazione</legend>
+            <label for="checkTampone">Tampone</label>
+            <input type="checkbox" id="checkTampone" name="checkTampone">
+            <label for="checkSierologico">Sierologico</label>
+            <input type="checkbox" id="checkSierologico" name="checkSierologico">
+            <label for="checkVaccino">Vaccino</label>
+            <input type="checkbox" id="checkVaccino" name="checkVaccino">
+            <hr>
+            <label for="radioFarmacia">Farmacia</label>
+            <input type="radio" id="radioFarmacia" name="radioFarmacia">
+            <label for="radioMedico">Medico di famiglia</label>
+            <input type="radio" id="radioMedico" name="radioMedico">
+            <label for="radioAmbulatorio">Ambulatorio</label>
+            <input type="radio" id="radioAmbulatorio" name="radioAmbulatorio">
+            <label for="radioOspedale">Ospedale</label>
+            <input type="radio" id="radioOspedale" name="radioOspedale">
+        </fieldset>
+        <button type="submit">Invia</button>
+        <button type="reset">Cancella</button>
+    </form>
+</body>
+</html>

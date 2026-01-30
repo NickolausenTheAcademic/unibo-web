@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio HTML</title>
+    <link rel="stylesheet" href="nicholas.magi.css">
+</head>
+<body>
+    <!-- 
+        Validazione HTML: OK
+        Validazione achecker: Violazione guideline "1.3 Adaptible"
+        - Check 245: Data table with more than one row/column of headers does not use id and headers attributes to identify cells.
+
+        Anche se la validazione automatica di achecker rileva un problema, 
+        è stato detto che è sufficiente specificare `scope` per ogni `th` 
+        per rimediare al problema.  
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">TIME/Conference Room</th>
+                <th scope="col">RENO</th>
+                <th scope="col">LAUGHLIN</th>
+                <th scope="col">VIRGINIA CITY</th>
+                <th scope="col">CARSON CITY</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">08:15 - 09:30</th>
+                <td colspan="4">Keynote Speech</td>
+            </tr>
+            <tr>
+                <th scope="row">09:30 - 10:00</th>
+                <td colspan="4">Networking & Coffe Break</td>
+            </tr>
+            <tr>
+                <th scope="row">10:00 - 12:00</th>
+                <td>Track 1</td>
+                <td>Track 9</td>
+                <td>Track 2</td>
+                <td>Work-in-Progress 2</td>
+            </tr>
+            <tr>
+                <th scope="row">12:00 - 13:00</th>
+                <td colspan="4">Lunch</td>
+            </tr>
+            <tr>
+                <th scope="row">13:00 - 15:30</th>
+                <td>Track 6</td>
+                <td>Track 5</td>
+                <td>Work-in-Progress 3</td>
+                <td>Work-in-Progress 4</td>
+            </tr>
+            <tr>
+                <th scope="row">15:30 - 16:00</th>
+                <td colspan="4">Networking & Coffee Break</td>
+            </tr>
+            <tr>
+                <th scope="row">16:00 - 18:00</th>
+                <td colspan="2">Panel 1</td>
+                <td colspan="2">Panel 2</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

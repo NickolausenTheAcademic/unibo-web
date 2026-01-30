@@ -1,0 +1,4 @@
+L'utente digita un'indirizzo web su un browser, 
+e quest'ultimo si prende l'incarico di interrogare il server corrispondente all'indirizzo per cercare la risorsa richiesta.
+Il server cerca la risorsa, la restituisce al browser che ha il compito ultimo di interpretarla e mostrarla all'utente.
+La pagina web viene interpretata da cima a fondo in ordine sequenziale, prima caricando il DOM (Document Object Model) e poi tutti gli eventuali asset/riferimenti esterni ad altre risorse che la pagina contine (script JavaScript, CSS Stylesheets, immagini...). 

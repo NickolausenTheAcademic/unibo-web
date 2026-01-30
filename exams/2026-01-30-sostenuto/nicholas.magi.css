@@ -1,0 +1,27 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+table {
+    width: 90%;
+    padding-left: 5%;
+    border: 5px double darkgreen;
+    box-shadow: 10px 10px 5px green;
+}
+
+th {
+    background-color: darkgreen;
+    color: white;
+    border: 1px solid black;
+}
+
+td {
+    background-color: white;
+    color: darkgreen;
+    border: 1px solid green;
+}
+
+td[colspan="4"] {
+    background-color: rgba(0, 128, 0, .4);
+}
